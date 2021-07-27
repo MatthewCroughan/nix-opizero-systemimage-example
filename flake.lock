@@ -1,0 +1,27 @@
+{
+  "nodes": {
+    "crosspkgs": {
+      "locked": {
+        "lastModified": 1624911830,
+        "narHash": "sha256-KuUQj34lGX4OYEtU7K3Tx+d1WGNBFnv/+txduxcnZi8=",
+        "owner": "matthewcroughan",
+        "repo": "nixpkgs",
+        "rev": "8de59de79454f48291c146456f79abbad41a44dd",
+        "type": "github"
+      },
+      "original": {
+        "owner": "matthewcroughan",
+        "ref": "armv7lfixes/podman",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "crosspkgs": "crosspkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
